@@ -1,5 +1,7 @@
 import './App.css'
 import React from "react";
+
+import StudentsList from './components/Repetition/StudentsList';
 import Family from "./components/basics/Family.jsx";
 import Card from "./components/layout/Card.jsx";
 import Random from "./components/basics/Random.jsx";
@@ -13,6 +15,13 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards"> 
+
+            <Card title = "Repetition" color="#457">
+            
+                <StudentsList></StudentsList>
+
+            </Card>
+
             <Card title = "component with children" color="#010">
                 <Family surname = "Aquino"> 
                     <FamilyMember name ="Giovanne" />
