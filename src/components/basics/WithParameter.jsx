@@ -1,6 +1,6 @@
 import React from "react"
 export default function WithParameter(props){
-    const status = props.nota >= 7 ? 'passed' : 'disapproved'
+    const status = props.note >= 7 ? 'passed' : 'disapproved'
 
     return(
         <div>
