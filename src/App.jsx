@@ -5,6 +5,7 @@ import Card from "./components/layout/Card.jsx";
 import Random from "./components/basics/Random.jsx";
 import First from './components/basics/First.jsx'
 import WithParameter from './components/basics/WithParameter';
+import FamilyMember from './components/basics/FamilyMember';
 
 export default _ =>
 
@@ -13,7 +14,11 @@ export default _ =>
 
         <div className="Cards"> 
             <Card title = "component with children" color="#010">
-                <Family surname = "Aquino"> </Family>
+                <Family surname = "Aquino"> 
+                    <FamilyMember name ="Giovanne" />
+                    <FamilyMember name ="Ana" />
+                    <FamilyMember name ="Shiryuu" />
+                </Family>
             </Card>
          
             <Card title = "random challenge" color="#010">
