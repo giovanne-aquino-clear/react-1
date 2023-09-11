@@ -1,6 +1,6 @@
 import './App.css'
 import React from "react";
-
+import Family from "./components/basics/Family.jsx";
 import Card from "./components/layout/Card.jsx";
 import Random from "./components/basics/Random.jsx";
 import First from './components/basics/First.jsx'
@@ -12,19 +12,23 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards"> 
-            <Card title = "random challenge">
+            <Card title = "component with children" color="#010">
+                <Family surname = "Aquino"> </Family>
+            </Card>
+         
+            <Card title = "random challenge" color="#010">
                 <Random min={1} max={60}/>
             </Card>  
 
-            <Card title = "string">
+            <Card title = "string" color="#200">
                 Olá React!
             </Card> 
 
-            <Card title = "string">
+            <Card title = "First parameter" color="#003">
                 <First></First>      
             </Card> 
                 
-            <Card title = "string">
+            <Card title = "Student status" color="#404">
             <WithParameter
                 student="Giovanne Aquino"
                 note= {10} />       
