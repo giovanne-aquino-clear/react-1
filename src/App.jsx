@@ -1,3 +1,4 @@
+import './App.css'
 import React from "react";
 
 import Card from "./components/layout/Card.jsx";
@@ -7,26 +8,28 @@ import WithParameter from './components/basics/WithParameter';
 
 export default _ =>
 
+    <div className = "App">
+        <h1>Fundamentos React</h1>
 
-        <div id = "app">
-
-        <Card title = "random challenge">
+        <div className="Cards"> 
+            <Card title = "random challenge">
                 <Random min={1} max={60}/>
-       </Card> 
+            </Card>  
 
-       <Card title = "string">
-       Olá React!
-       </Card> 
+            <Card title = "string">
+                Olá React!
+            </Card> 
 
-       <Card title = "string">
-       <First></First>      
-       </Card> 
-        
-       <Card title = "string">
-       <WithParameter
-            student="Giovanne Aquino"
-            note= {10} />       
-        </Card> 
-        
+            <Card title = "string">
+                <First></First>      
+            </Card> 
+                
+            <Card title = "string">
+            <WithParameter
+                student="Giovanne Aquino"
+                note= {10} />       
+            </Card> 
+        </div>
+
     </div>
     
