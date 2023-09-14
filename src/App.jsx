@@ -8,6 +8,8 @@ import Random from "./components/basics/Random.jsx";
 import First from './components/basics/First.jsx'
 import WithParameter from './components/basics/WithParameter';
 import FamilyMember from './components/basics/FamilyMember';
+import TableProducts from './components/Repetition/TableProducts';
+
 
 export default _ =>
 
@@ -15,6 +17,10 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards"> 
+
+            <Card titulo='repeat challenge' color='yellow' border='yellow'>
+                    <TableProducts></TableProducts>
+            </Card>
 
             <Card title = "Repetition" color="#457">
             
