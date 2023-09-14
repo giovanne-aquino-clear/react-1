@@ -9,6 +9,7 @@ import First from './components/basics/First.jsx'
 import WithParameter from './components/basics/WithParameter';
 import FamilyMember from './components/basics/FamilyMember';
 import TableProducts from './components/Repetition/TableProducts';
+import UserInfo from './components/conditional/UserInfo';
 
 
 export default _ =>
@@ -17,6 +18,17 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards"> 
+
+        <Card titulo='#08 - Renderização condicional' color="#982395">
+                    <UserInfo user={{ nome: 'Fernando' }} />
+                    <UserInfo user={{ nome: 'Julia' }} />
+                    <UserInfo user={{ email: 'Fernando' }} />
+                    <UserInfo user={{}} />
+                    <UserInfo user={{}} />
+                    <UserInfo user={{}} />
+                    <UserInfo user={{ nome: 'Lucas' }} />
+                    <UserInfo user={{ nome: 'Natalia' }} />
+            </Card>
 
             <Card titulo='repeat challenge' color='yellow' border='yellow'>
                     <TableProducts></TableProducts>
