@@ -23,16 +23,20 @@ export default _ =>
 
         <div className="Cards"> 
 
-        <Card titulo='#12 Counter' color='yellow'>
+        <Card title='#013 - Challenge Megasena'>
+                    <Mega/>
+                </Card>
+
+        <Card title='#12 Counter' color='yellow'>
                     <Counter numeroInicial={0} passo={0}></Counter>
         </Card>
 
-        <Card titulo='#11  Controlled Components' color='green'>
+        <Card title='#11  Controlled Components' color='green'>
                     <Input></Input>
                 </Card>
 
         
-        <Card titulo='#10 indirect communication '>
+        <Card title='#10 indirect communication '>
                     <IndirectFather></IndirectFather>
                 </Card>
 
