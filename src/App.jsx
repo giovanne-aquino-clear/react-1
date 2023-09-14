@@ -12,6 +12,7 @@ import TableProducts from './components/Repetition/TableProducts';
 import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/communication/DirectFather';
 import IndirectFather from './components/communication/IndirectFather';
+import Input from './components/form/input';
 
 
 export default _ =>
@@ -20,6 +21,11 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards"> 
+
+        <Card titulo='#11  Controlled Components' color='green'>
+                    <Input></Input>
+                </Card>
+
         
         <Card titulo='#10 indirect communication '>
                     <IndirectFather></IndirectFather>
