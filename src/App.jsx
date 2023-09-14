@@ -11,6 +11,7 @@ import FamilyMember from './components/basics/FamilyMember';
 import TableProducts from './components/Repetition/TableProducts';
 import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/communication/DirectFather';
+import IndirectFather from './components/communication/IndirectFather';
 
 
 export default _ =>
@@ -20,8 +21,10 @@ export default _ =>
 
         <div className="Cards"> 
         
+        <Card titulo='#10 indirect communication '>
+                    <IndirectFather></IndirectFather>
+                </Card>
 
-        
         <Card title='#09  direct communication'>
                     <DirectFather></DirectFather>
                 </Card>
