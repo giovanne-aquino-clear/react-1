@@ -20,6 +20,8 @@ export default _ =>
 
         <div className="Cards"> 
         
+
+        
         <Card title='#09  direct communication'>
                     <DirectFather></DirectFather>
                 </Card>
