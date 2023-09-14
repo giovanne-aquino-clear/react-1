@@ -13,6 +13,7 @@ import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/communication/DirectFather';
 import IndirectFather from './components/communication/IndirectFather';
 import Input from './components/form/input';
+import Counter from './components/counter/Counter';
 
 
 export default _ =>
@@ -21,6 +22,10 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards"> 
+
+        <Card titulo='#12 Counter' color='yellow'>
+                    <Counter numeroInicial={0} passo={0}></Counter>
+        </Card>
 
         <Card titulo='#11  Controlled Components' color='green'>
                     <Input></Input>
